@@ -16,8 +16,8 @@ const aURL = [
   ["2196F3", "KJ5IRQ", "https://kj5irq.radio", "1"],
   [
     "2196F3",
-    "CONTEST",
-    "https://www.contestcalendar.com/fivewkcal.html",
+    "NWS Fort Worth/Dallas",
+    "https://www.weather.gov/fwd/",
     "1",
   ],
   ["2196F3", "DX CLUSTER", "https://dxcluster.ha8tks.hu/map/", "1"],
