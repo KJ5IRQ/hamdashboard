@@ -75,8 +75,30 @@ const aIMG = [
     "http://wsn.spaceflight.esa.int/iss/index_portal.php",
   ],
   [
-    "SATELLITE CAN",
-    "https://cdn.star.nesdis.noaa.gov/GOES16/GLM/SECTOR/can/EXTENT3/GOES16-CAN-EXTENT3-1125x560.gif",
+	"",
+	// Wx Widget - https://www.weatherandradar.com/weather-widget
+	// Mineral Wells
+        "<iframe|https://api.wo-cloud.com/content/widget/?geoObjectKey=8864613&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit" 
+	// Mims
+	"iframe|https://api.wo-cloud.com/content/widget/?geoObjectKey=7880083&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit",
+	// Titusville
+	"iframe|https://api.wo-cloud.com/content/widget/?geoObjectKey=2495757&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit",
+	// Port St. John
+	"iframe|https://api.wo-cloud.com/content/widget/?geoObjectKey=206878&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit",
+	// Cocoa
+	"iframe|https://api.wo-cloud.com/content/widget/?geoObjectKey=13474058&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit",
+	// Cocoa Beach
+	"iframe|https://api.wo-cloud.com/content/widget/?geoObjectKey=18217784&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit",
+	// Satellite Beach
+	"iframe|https://api.wo-cloud.com/content/widget/?geoObjectKey=14843524&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit",
+	// Melbourne
+	"iframe|https://api.wo-cloud.com/content/widget/?geoObjectKey=16389861&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit",
+	// Palm Bay
+	"iframe|https://api.wo-cloud.com/content/widget/?geoObjectKey=12914077&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit",
+	// Grant-Valkaria
+	"iframe|https://api.wo-cloud.com/content/widget/?geoObjectKey=5565699&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit",
+	// Micco
+	"iframe|https://api.wo-cloud.com/content/widget/?geoObjectKey=15365564&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit",
   ],
   [
     "SATELLITE CGL",
