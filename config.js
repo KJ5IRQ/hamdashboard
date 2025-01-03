@@ -22,8 +22,8 @@ const aURL = [
   ],
     [
     "2196F3",
-    "VHF-DXVIEW",
-    "https://vhf.dxview.org/",
+    "FIRE TEMP",
+    "https://www.star.nesdis.noaa.gov/GOES/sector_band.php?sat=G16&sector=sp&band=FireTemperature&length=24",
     "1",
   ],
   [
