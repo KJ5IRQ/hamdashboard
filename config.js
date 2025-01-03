@@ -22,12 +22,6 @@ const aURL = [
   ],
   [
     "2196F3",
-    "VHF-DXVIEW",
-    "https://vhf.dxview.org/",
-    "1",
-  ],
-  [
-    "2196F3",
     "RADAR",
     "https://weather.gc.ca/?layers=alert,radar&center=43.39961001,-78.53212031&zoom=6&alertTableFilterProv=ON",
     "1",
