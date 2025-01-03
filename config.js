@@ -20,15 +20,6 @@ const aURL = [
     "https://www.weather.gov/fwd/",
     "1",
   ],
-  ["2196F3", "DX CLUSTER", "https://dxcluster.ha8tks.hu/map/", "1"],
-  [
-    "2196F3",
-    "LIGHTNING",
-    "https://map.blitzortung.org/#3.87/36.5/-89.41",
-    "1",
-    "R",
-  ],
-  ["2196F3", "PISTAR", "http://pi-star.local/", "1.2"],
   [
     "2196F3",
     "RADAR",
