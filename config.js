@@ -20,6 +20,12 @@ const aURL = [
     "https://www.weather.gov/fwd/",
     "1",
   ],
+    [
+    "2196F3",
+    "VHF-DXVIEW",
+    "https://vhf.dxview.org/",
+    "1",
+  ],
   [
     "2196F3",
     "RADAR",
