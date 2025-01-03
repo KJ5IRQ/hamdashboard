@@ -13,7 +13,7 @@ const aURL = [
   ["add10d", "BACK", "#", "1", "R"],
   ["ff9100", "Refresh", "#", "1"],
   ["0dd1a7", "Help", "#", "1"],
-  ["2196F3", "KJ5IRQ Homepage", "https://kj5irq.radio", "1.7"],
+  ["2196F3", "KJ5IRQ", "https://kj5irq.radio", "1"],
   [
     "2196F3",
     "CONTEST",
