@@ -78,7 +78,7 @@ const aIMG = [
 	"",
 	// Wx Widget - https://www.weatherandradar.com/weather-widget
 	// Mineral Wells
-        "<iframe|https://api.wo-cloud.com/content/widget/?geoObjectKey=8864613&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit" 
+        "iframe|https://api.wo-cloud.com/content/widget/?geoObjectKey=8864613&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit",
 	// Mims
 	"iframe|https://api.wo-cloud.com/content/widget/?geoObjectKey=7880083&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit",
 	// Titusville
