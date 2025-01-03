@@ -81,8 +81,8 @@ const aIMG = [
         "iframe|https://api.wo-cloud.com/content/widget/?geoObjectKey=8864613&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit",
 	// Santo
 	"iframe|https://api.wo-cloud.com/content/widget/?geoObjectKey=27923538&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit",
-	// Titusville
-	//"iframe|https://api.wo-cloud.com/content/widget/?geoObjectKey=2495757&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit",
+	// Hudson Oaks
+	"iframe|https://api.wo-cloud.com/content/widget/?geoObjectKey=3534246&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit",
 	// Port St. John
 	//"iframe|https://api.wo-cloud.com/content/widget/?geoObjectKey=206878&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit",
 	// Cocoa
@@ -101,8 +101,17 @@ const aIMG = [
 	//"iframe|https://api.wo-cloud.com/content/widget/?geoObjectKey=15365564&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit",
   ],
   [
-    "SATELLITE CGL",
-    "https://cdn.star.nesdis.noaa.gov/GOES16/GLM/SECTOR/cgl/EXTENT3/GOES16-CGL-EXTENT3-600x600.gif",
+	// "Forecast Graphics",
+	"",
+	"https://data.mesonet.org/data/public/noaa/metar/maps/realtime/latest.tair.png",
+	"https://graphical.weather.gov/GraphicalNDFD.php?sector=CONUS&element=rh&n=3",
+	"https://data.mesonet.org/data/public/noaa/metar/maps/realtime/latest.tapp.png",
+	"https://graphical.weather.gov/images/conus/MaxT1_conus.png",
+	"https://graphical.weather.gov/images/conus/MinT1_conus.png",
+	"https://graphical.weather.gov/GraphicalNDFD.php?sector=CONUS&element=pop12",
+	"https://graphical.weather.gov/GraphicalNDFD.php?sector=CONUS&element=windspd&n=3",
+	"https://graphical.weather.gov/GraphicalNDFD.php?sector=CONUS&element=windgust&n=3",
+	"https://graphical.weather.gov/GraphicalNDFD.php?sector=CONUS&element=sky&n=3",
   ],
   [
     "LIGHTNING",
