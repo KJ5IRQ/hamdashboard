@@ -25,7 +25,7 @@ const aURL = [
     "VHF-DXVIEW",
     "https://vhf.dxview.org/",
     "1",
-  ]
+  ],
   [
     "2196F3",
     "RADAR",
