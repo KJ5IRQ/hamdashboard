@@ -114,8 +114,8 @@ const aIMG = [
 	"https://graphical.weather.gov/GraphicalNDFD.php?sector=CONUS&element=sky&n=3",
   ],
   [
-    "LIGHTNING",
-    "https://images.lightningmaps.org/blitzortung/america/index.php?animation=usa",
+    "FIRE DANGER",
+    "https://www.nifc.gov/modules/custom/nicc_outlooks/images/outlook_d1.png",
   ],
   [
     "LIGHTNING LOCAL",
