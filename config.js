@@ -117,12 +117,7 @@ const aIMG = [
     "FIRE DANGER",
     "https://www.nifc.gov/modules/custom/nicc_outlooks/images/outlook_d1.png",
   ],
-  [
-    name: "Mineral Wells Weather",
-    type: "json",
-    url: "https://api.weather.com/v2/pws/observations/current?stationId=KTXMINER8&format=json&units=e&apiKey=c00d56c126dc470a8d56c126dc970aee",
-    refreshInterval: "300", // Refresh every 5 minutes
-  ],
+
   ["YOUTUBE EXAMPLE", "iframe|https://www.youtube.com/embed/fzPFaXAV_2Y?autoplay=1&mute=1"],
   [
     "WEBSITE EXAMPLE",
