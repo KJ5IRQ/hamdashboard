@@ -21,12 +21,11 @@ const aURL = [
 	"Launches",
 	"https://www.spacelaunchschedule.com/category/fl",
 	"1.0",
-	"R",
   ],
   [
 	"2196F3",
 	"Forecast",
-	"https://forecast.weather.gov/MapClick.php?lat=28.3937444&lon=-80.6064444",
+	"https://forecast.weather.gov/MapClick.php?lat=32.8084&lon=-98.1069",
 	"1.0",
 	"R",
   ],
