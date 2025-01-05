@@ -73,6 +73,8 @@ const aIMG = [
   [
     "ISS POSITION",
     "https://www.heavens-above.com/orbitdisplay.aspx?icon=default&width=300&height=300&satid=25544",
+    "https://heavens-above.com/PassSummary.aspx?satid=25544",
+    "https://heavens-above.com/StarLink.aspx",
   ],
   [
 	"",
