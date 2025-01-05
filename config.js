@@ -117,7 +117,11 @@ const aIMG = [
     "FIRE DANGER",
     "https://www.nifc.gov/modules/custom/nicc_outlooks/images/outlook_d1.png",
   ],
-
+  [
+	"Solar",
+	"https://www.hamqsl.com/solarmap.ph",
+	"https://www.hamqsl.com/solarsun.php",
+  ],
   ["YOUTUBE EXAMPLE", "iframe|https://www.youtube.com/embed/fzPFaXAV_2Y?autoplay=1&mute=1"],
   [
     "WEBSITE EXAMPLE",
