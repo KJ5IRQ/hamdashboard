@@ -119,7 +119,7 @@ const aIMG = [
   ],
   [
 	"Solar",
-	"https://www.hamqsl.com/solarmap.ph",
+	"https://www.hamqsl.com/solarmap.php",
 	"https://www.hamqsl.com/solarsun.php",
   ],
   ["YOUTUBE EXAMPLE", "iframe|https://www.youtube.com/embed/fzPFaXAV_2Y?autoplay=1&mute=1"],
