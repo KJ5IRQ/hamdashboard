@@ -40,49 +40,7 @@ const aIMG = [
   ["ISS POSITION", "https://www.heavens-above.com/orbitdisplay.aspx?icon=default&width=300&height=300&satid=25544", "iframe|https://heavens-above.com/PassSummary.aspx?satid=25544", "https://heavens-above.com/StarLink.aspx"],
   ["Wx Widget", "iframe|https://api.wo-cloud.com/content/widget/?geoObjectKey=8864613&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit"],
   ["Forecast Graphics", "https://data.mesonet.org/data/public/noaa/metar/maps/realtime/latest.tair.png", "https://graphical.weather.gov/GraphicalNDFD.php?sector=CONUS&element=rh&n=3", "https://data.mesonet.org/data/public/noaa/metar/maps/realtime/latest.tapp.png", "https://graphical.weather.gov/images/conus/MaxT1_conus.png", "https://graphical.weather.gov/images/conus/MinT1_conus.png", "https://graphical.weather.gov/GraphicalNDFD.php?sector=CONUS&element=pop12", "https://graphical.weather.gov/GraphicalNDFD.php?sector=CONUS&element=windspd&n=3", "https://graphical.weather.gov/GraphicalNDFD.php?sector=CONUS&element=windgust&n=3", "https://graphical.weather.gov/GraphicalNDFD.php?sector=CONUS&element=sky&n=3"],
-  ["FIRE DANGER", "..."]
+  ["FIRE DANGER", "https://aviationweather.gov/impactboard/?id=KMWL&thresh=imc&board=obs"]
   // Add additional rows as needed
 ];
 
-// Function to generate menu items dynamically
-function generateMenu(aURL) {
-  const menuContainer = document.getElementById('menu-container');
-  aURL.forEach(item => {
-    const menuItem = document.createElement('div');
-    menuItem.classList.add('menu-item');
-    menuItem.style.backgroundColor = item[0];
-    menuItem.innerHTML = `
-      <a href="${item[2]}" target="_blank" style="transform: scale(${item[3]});">
-        ${item[1]}
-      </a>
-    `;
-    if (item[4]) {
-      menuItem.classList.add(item[4]);
-    }
-    menuContainer.appendChild(menuItem);
-  });
-}
-
-// Function to generate dashboard items dynamically
-function generateDashboard(aIMG) {
-  const dashboardContainer = document.getElementById('dashboard-container');
-  aIMG.forEach(item => {
-    const dashboardItem = document.createElement('div');
-    dashboardItem.classList.add('dashboard-item');
-    dashboardItem.innerHTML = `
-      <h3>${item[0]}</h3>
-      <img src="${item[1]}" alt="${item[0]}">
-      ${item.slice(2).map(link => `<a href="${link}" target="_blank">${link}</a>`).join('')}
-    `;
-    dashboardContainer.appendChild(dashboardItem);
-  });
-}
-
-// Initialize the page
-function init() {
-  generateMenu(aURL);
-  generateDashboard(aIMG);
-}
-
-// Run initialization on page load
-window.onload = init;
