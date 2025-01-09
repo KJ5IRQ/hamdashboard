@@ -1,7 +1,7 @@
 const topBarCenterText = `KJ5IRQ - EM02wt`;
 
 // Grid layout
-  var layout_cols = 4;
+  var layout_cols = 3;
   var layout_rows = 3;
 
 // Menu items
@@ -226,7 +226,7 @@ const aURL = [
 const aIMG = [
   [
 	// A1
-	"A1",
+	"WX-Prediction",
 	"https://www.wpc.ncep.noaa.gov/noaa/noaad1.gif?1736375551",
 	"https://www.wpc.ncep.noaa.gov/noaa/noaad2.gif?1736375649",
 	"https://www.wpc.ncep.noaa.gov/noaa/noaad3.gif?1736375658",
@@ -235,13 +235,14 @@ const aIMG = [
   ],
   [
 	// A2
-	"A2",
+	"Radar",
 	"https://radar.weather.gov/ridge/standard/CONUS-LARGE_loop.gif",
 	"https://radar.weather.gov/ridge/standard/SOUTHPLAINS_loop.gif?refreshed=1736373276316",
-	"https://radar.weather.gov/ridge/standard/KFWS_loop.gif?refreshed=1736371876335",  ],
+	"https://radar.weather.gov/ridge/standard/KFWS_loop.gif?refreshed=1736371876335",  
+  ],
   [
 	// A3
-	"A3",
+	"Warnings/Fire Weather",
 	"https://www.spc.noaa.gov/products/activity_loop.gif",
     "https://www.spc.noaa.gov/wcm/2025_torww_to_date.png",
 	"https://www.weather.gov/images/fwd/drought/latestdmtx.png",
@@ -250,8 +251,8 @@ const aIMG = [
 	"https://www.spc.noaa.gov/products/exper/fire_wx/imgs/day6otlk_fire.gif",	
   ],
   [
-	// 7 day Outlook and NWS Watches
-	"A",
+	// B1 7 day Outlook and NWS Watches
+	"WX-Outlook",
 	"https://www.spc.noaa.gov/products/watch/validww.png",
 	"https://www.spc.noaa.gov/products/outlook/day1otlk_2000.gif",
 	"https://www.spc.noaa.gov/products/outlook/day2otlk_1730.gif",
@@ -259,55 +260,40 @@ const aIMG = [
 	"https://www.spc.noaa.gov/misc/SPC_5-tier_Convective_Outlook_Info_files/understanding_categories.png",
   ],
   [
-	// B1
-	"B1",
+	// B2
+	"Reserved for Spotter",
 	"iframe|src=https://www.spotternetwork.org/pages/map",
 	//"https://services.swpc.noaa.gov/images/animations/geoelectric/InterMagEarthScope/EmapGraphics_1m/latest.png",
   ],  
   [
-	// B2
-	"B2",
+	// B3
+	"Space Weather",
 	"https://www.hamqsl.com/solar101vhf.php",
 	"https://www.hamqsl.com/solar100sc.php",
 	"https://www.hamqsl.com/solarpich.php",
   ], 
   [
-	// B3
+	// C1
 	"B3",
-	"https://forecast.weather.gov/meteograms/Plotter.php?lat=28.3893&lon=-80.6088&wfo=MLB&zcode=FLZ447&gset=18&gdiff=3&unit=0&tinfo=EY7&ahour=0&pcmd=1111111111&lg=en&indu=1!1!1!&dd=3&bw=0&hrspan=48",
-  ], 
-  [
-	// B4
-	"B4",
-		"iframe|https://aprs.fi/#!mt=roadmap&z=11&call=YOURCALLSIGN&timerange=3600",
+	"iframe|https://api.wo-cloud.com/content/widget/?geoObjectKey=8864613&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit",
   ], 
   [
 	// C1
-	"C1",
-    //"https://radar.weather.gov/ridge/standard/CONUS_loop.gif",
-	"https://services.swpc.noaa.gov/images/animations/geoelectric/InterMagEarthScope/EmapGraphics_1m/latest.png",
-  ], 
-  [
-	// C2
-	"C2",
-	"https://radar.weather.gov/ridge/standard/CONUS-LARGE_loop.gif",
-	//"https://radar.weather.gov/ridge/standard/CONUS_loop.gif",
-	//"https://services.swpc.noaa.gov/images/animations/geoelectric/InterMagEarthScope/EmapGraphics_1m/latest.png",
+	"",
+	"iframe|http://www.g4ilo.com/wwv/webprop.php",
   ], 
   [
 	// C3
-	"C3",
-	"https://radar.weather.gov/ridge/standard/CONUS-LARGE_loop.gif",
-	//"https://radar.weather.gov/ridge/standard/CONUS_loop.gif",
-	//"https://services.swpc.noaa.gov/images/animations/geoelectric/InterMagEarthScope/EmapGraphics_1m/latest.png",
+	"C1",
+    "https://www.sws.bom.gov.au/Images/Solar/Solar%20Conditions/Solar%20Activity%20Plot/solplot.gif",
+	"https://www.sws.bom.gov.au/Images/HF%20Systems/Global%20HF/Ionospheric%20Map/WorldIMap.gif",
+	"https://spaceweather.bradford.ac.uk/ASAP_latest/flaremonitor_24.png",
+	"https://services.swpc.noaa.gov/images/swx-overview-small.gif",
+	"https://sdo.gsfc.nasa.gov/assets/img/latest/latest_4096_0171.jpg",
+	"https://sdo.gsfc.nasa.gov/assets/img/latest/f_211_193_171.jpg",
+	"iframe|https://vhf.dxview.org/",
   ], 
-  [
-	// C4
-	"C4",
-	"https://radar.weather.gov/ridge/standard/CONUS-LARGE_loop.gif",
-	//"https://radar.weather.gov/ridge/standard/CONUS_loop.gif",
-	//"https://services.swpc.noaa.gov/images/animations/geoelectric/InterMagEarthScope/EmapGraphics_1m/latest.png",
-  ], 
+   
   ];
 
 // Define tile image refresh/rotate rate in milliseconds.
@@ -320,15 +306,12 @@ const tileDelay = [
 	10100,
 	10300,
 	10600,
-	10900,
 	// Middle row
 	62000,
 	64000,
 	1800000,
-	66000,
 	// Bottom row
 	60000,
 	45000,
 	62000,
-	58000,
 ];
