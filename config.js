@@ -14,6 +14,7 @@ const aURL = [
   ["ff9100", "Refresh", "#", "1"],
   // ["0dd1a7", "Help", "#", "1"],
   ["2196F3","KMWL Impact Board","https://aviationweather.gov/impactboard/?id=KMWL&thresh=imc&board=obs","1.0","R",],
+  ["2196F3","US Warn Map", "https://warn.pbs.org/","1.0","R",],
   [
 	"2196F3",
 	"Launches",
