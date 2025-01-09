@@ -746,20 +746,6 @@ d8888b.  .d88b.  d8888b. db    db
 88   8D `8b  d8' 88  .8D    88
 Y8888P'  `Y88P'  Y8888D'    YP
 
-<!-- Top Bar Center Section -->
-<!-- 
-    The dashboard's HTML file displays the top bar with the local time, call sign, etc., 
-    as defined in the config.js file, along with UTC.
-
-    WARNING: If Pablo makes changes to the HTML file and you download the updated version, 
-    you will need to reimplement any changes made here.
-
-    To customize the color scheme of the center call sign box, you can edit the 'style' line below.
-    For example:
-    style="background: blue; text-align: center; font-weight: bold; color: yellow"
-    
-    You can experiment with colors by using "rgb" values or named colors.
--->
 
 <div
     id="topBarCenter"
@@ -768,24 +754,17 @@ Y8888P'  `Y88P'  Y8888D'    YP
 >
     <!-- The style and text for this box can be dynamically configured via config.js -->
 </div>
-
-<script>
-  // Example dynamic customization using config.js
-  const topBarCenter = document.getElementById("topBarCenter");
-  if (topBarCenter) {
-    // Apply the style from config.js dynamically
-    const config = {
-      topBarCenterStyle: "background: blue; text-align: center; font-weight: bold; color: yellow;",
-      callSign: "Your Call Sign Here",
-    };
-    topBarCenter.style.cssText = config.topBarCenterStyle;
-
-    // Set the call sign text dynamically
-    topBarCenter.textContent = config.callSign;
-  }
-</script>
+<!-- Top Bar Center Section -->
+<div
+    id="topBarCenter"
+    class="child"
+    style="text-align: center; color: rgb(0, 119, 255)"
+>
+    <!-- This content will be dynamically updated by config1.js -->
+</div>
 -->
-  <body onload="start()">
+
+<body onload="start()">
     <div id="iFrameContainer" class="iframe-container">
       <iframe class="full-screen" id="FullScreen" src="" title="Zoom"></iframe>
     </div>
