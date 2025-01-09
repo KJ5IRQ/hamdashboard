@@ -225,85 +225,89 @@ const aURL = [
 
 const aIMG = [
   [
-	"",
-	"https://services.swpc.noaa.gov/images/animations/ovation/north/latest.jpg",
-	"https://services.swpc.noaa.gov/images/animations/ovation/south/latest.jpg",
-	"https://services.swpc.noaa.gov/images/animations/enlil/latest.jpg",
-	"https://services.swpc.noaa.gov/images/animations/geoelectric/InterMagEarthScope/EmapGraphics_1m/latest.png",
-  ],
-  [
- 	"",
-	"https://www.hamqsl.com/solarmuf.php",
-	"https://www.hamqsl.com/solarmap.php",
-	"https://services.swpc.noaa.gov/images/animations/d-rap/global/d-rap/latest.png",
-	"https://services.swpc.noaa.gov/images/swx-overview-large.gif",
-	"https://services.swpc.noaa.gov/images/animations/wam-ipe/wfs_ionosphere_new/latest.png",
-	"https://prop.kc2g.com/renders/current/mufd-normal-now.svg",
-  ],
-  [
-	"Propagation",
-	"https://img.propagation.dr2w.de/n-america/10M/dr2w_animation_10M.gif",
-		"https://www.tvcomm.co.uk/g7izu/Autosave/NA_ES_AutoSave.JPG",
-	"https://img.propagation.dr2w.de/n-america/20M/dr2w_animation_20M.gif",
-	"https://img.propagation.dr2w.de/n-america/40M/dr2w_animation_40M.gif",
-	"https://img.propagation.dr2w.de/n-america/80M/dr2w_animation_80M.gif",
-	"https://services.swpc.noaa.gov/images/animations/d-rap/global/d-rap/latest.png",
-  ],
-  [
-	"",
-	"https://qsl.net/n5ng/HAM/hamclock.bmp",
-  ],
+	// A1
+	"A1",
+	"https://www.wpc.ncep.noaa.gov/noaa/noaad1.gif?1736375551",
+	"https://www.wpc.ncep.noaa.gov/noaa/noaad2.gif?1736375649",
+	"https://www.wpc.ncep.noaa.gov/noaa/noaad3.gif?1736375658",
+	"https://radar.weather.gov/ridge/standard/CONUS_loop.gif",
 
-// Row 2
-
-  [
-	"Sun/Moon Grey Line",
-	"https://www.timeanddate.com/scripts/sunmap.php?iso=now",
-	"https://www.timeanddate.com/scripts/sunmap.php?obj=moon&iso=now",
   ],
   [
-	"ISS",
-	"https://www.heavens-above.com/orbitdisplay.aspx?icon=iss&width=600&height=300&mode=M&satid=25544",
-	"iframe|https://www.youtube.com/embed/OCem0E-0Q6Y?autoplay=1&mute=1",
-	"iframe|https://www.youtube.com/embed/wG4YaEcNlb0?autoplay=1&mute=1",
+	// A2
+	"A2",
+	"https://radar.weather.gov/ridge/standard/CONUS-LARGE_loop.gif",
+	"https://radar.weather.gov/ridge/standard/SOUTHPLAINS_loop.gif?refreshed=1736373276316",
+	"https://radar.weather.gov/ridge/standard/KFWS_loop.gif?refreshed=1736371876335",  ],
+  [
+	// A3
+	"A3",
+	"https://www.spc.noaa.gov/products/activity_loop.gif",
+    "https://www.spc.noaa.gov/wcm/2025_torww_to_date.png",
+	"https://www.weather.gov/images/fwd/drought/latestdmtx.png",
+	"https://www.spc.noaa.gov/products/fire_wx/day1fireotlk-overview.gif",
+	"https://www.spc.noaa.gov/products/fire_wx/day2otlk_fire.gif",
+	"https://www.spc.noaa.gov/products/exper/fire_wx/imgs/day6otlk_fire.gif",	
   ],
   [
-	"",
+	// 7 day Outlook and NWS Watches
+	"A",
+	"https://www.spc.noaa.gov/products/watch/validww.png",
+	"https://www.spc.noaa.gov/products/outlook/day1otlk_2000.gif",
+	"https://www.spc.noaa.gov/products/outlook/day2otlk_1730.gif",
+	"https://www.spc.noaa.gov/products/exper/day4-8/day48prob.gif",
+	"https://www.spc.noaa.gov/misc/SPC_5-tier_Convective_Outlook_Info_files/understanding_categories.png",
+  ],
+  [
+	// B1
+	"B1",
+	"iframe|src=https://www.spotternetwork.org/pages/map",
+	//"https://services.swpc.noaa.gov/images/animations/geoelectric/InterMagEarthScope/EmapGraphics_1m/latest.png",
+  ],  
+  [
+	// B2
+	"B2",
 	"https://www.hamqsl.com/solar101vhf.php",
 	"https://www.hamqsl.com/solar100sc.php",
 	"https://www.hamqsl.com/solarpich.php",
-	"https://services.swpc.noaa.gov/images/animations/suvi/primary/map/latest.png",
-  ],
+  ], 
   [
-	"2 Day Hourly Forecast",
+	// B3
+	"B3",
 	"https://forecast.weather.gov/meteograms/Plotter.php?lat=28.3893&lon=-80.6088&wfo=MLB&zcode=FLZ447&gset=18&gdiff=3&unit=0&tinfo=EY7&ahour=0&pcmd=1111111111&lg=en&indu=1!1!1!&dd=3&bw=0&hrspan=48",
-  ],
-
-// Row 3
-
+  ], 
   [
-	"RADAR",
-	"https://radar.weather.gov/ridge/standard/KMLB_loop.gif",
-	//"https://radar.weather.gov/ridge/standard/SOUTHEAST_loop.gif",
-	"https://radar.weather.gov/ridge/standard/SOUTHEAST_loop.gif",
+	// B4
+	"B4",
+		"iframe|https://aprs.fi/#!mt=roadmap&z=11&call=YOURCALLSIGN&timerange=3600",
+  ], 
+  [
+	// C1
+	"C1",
+    //"https://radar.weather.gov/ridge/standard/CONUS_loop.gif",
+	"https://services.swpc.noaa.gov/images/animations/geoelectric/InterMagEarthScope/EmapGraphics_1m/latest.png",
+  ], 
+  [
+	// C2
+	"C2",
 	"https://radar.weather.gov/ridge/standard/CONUS-LARGE_loop.gif",
 	//"https://radar.weather.gov/ridge/standard/CONUS_loop.gif",
-  ],
+	//"https://services.swpc.noaa.gov/images/animations/geoelectric/InterMagEarthScope/EmapGraphics_1m/latest.png",
+  ], 
   [
-	"Lightning",
-	"https://images.lightningmaps.org/blitzortung/america/index.php?animation=florida",
-	"https://images.lightningmaps.org/blitzortung/america/index.php?animation=usa",
-  ],
+	// C3
+	"C3",
+	"https://radar.weather.gov/ridge/standard/CONUS-LARGE_loop.gif",
+	//"https://radar.weather.gov/ridge/standard/CONUS_loop.gif",
+	//"https://services.swpc.noaa.gov/images/animations/geoelectric/InterMagEarthScope/EmapGraphics_1m/latest.png",
+  ], 
   [
-	"Port",
-	"iframe|https://www.youtube.com/embed/FTw5xuq2swo?autoplay=1&mute=1",
-  ],
-  [
-	"Cape",
-	"iframe|https://www.youtube.com/embed/Jm8wRjD3xVA?autoplay=1&mute=1",
-	"iframe|https://www.youtube.com/embed/uH1W01t_lGc?autoplay=1&mute=1",
-	"iframe|https://www.youtube.com/embed/E1uVzfQG_Yo?autoplay=1&mute=1",
-  ],
+	// C4
+	"C4",
+	"https://radar.weather.gov/ridge/standard/CONUS-LARGE_loop.gif",
+	//"https://radar.weather.gov/ridge/standard/CONUS_loop.gif",
+	//"https://services.swpc.noaa.gov/images/animations/geoelectric/InterMagEarthScope/EmapGraphics_1m/latest.png",
+  ], 
   ];
 
 // Define tile image refresh/rotate rate in milliseconds.
@@ -313,10 +317,10 @@ const aIMG = [
 
 const tileDelay = [
 	// Top row
-	120000,
-	122000,
-	124000,
-	30000,
+	10100,
+	10300,
+	10600,
+	10900,
 	// Middle row
 	62000,
 	64000,
