@@ -20,6 +20,7 @@ const aURL = [
 ["f1e4c7", "USA Space Launches", "https://www.spacelaunchschedule.com/category/usa/", "1.0", "R",],
 ["f1e4c7", "NWS-FWD-WX", "https://www.weather.gov/fwd/",],
 ["f1e4c7", "US Warn Map", "https://warn.pbs.org/", "1.0", "R",],
+["f1e4c7", "Spotter Net Map" "https://www.spotternetwork.org/pages/map", "1", "R",],
 
 
 ];
@@ -86,7 +87,7 @@ const aIMG = [
   ], 
   [
 	// C1
-	"",
+	"Reserved for Hamclock",
 	"iframe|http://www.g4ilo.com/wwv/webprop.php",
   ], 
   [
@@ -98,7 +99,6 @@ const aIMG = [
 	"https://services.swpc.noaa.gov/images/swx-overview-small.gif",
 	"https://sdo.gsfc.nasa.gov/assets/img/latest/latest_4096_0171.jpg",
 	"https://sdo.gsfc.nasa.gov/assets/img/latest/f_211_193_171.jpg",
-	"iframe|https://vhf.dxview.org/",
   ], 
    
   ];
