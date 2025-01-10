@@ -17,7 +17,8 @@ const aURL = [
 
 	//Right Side Menus
 ["f1e4c7", "Help", "#", "1", "R",],
-["f1e4c7", "KMWL Impact Board", "https://aviationweather.gov/impactboard/?id=KMWL&thresh=imc&board=obs", "1.0", "R",],
+["f1e4c7", "USA Space Launches", "https://www.spacelaunchschedule.com/category/usa/", "1.0", "R",],
+["f1e4c7", "NWS-FWD-WX", "https://www.weather.gov/fwd/",
 ["f1e4c7", "US Warn Map", "https://warn.pbs.org/", "1.0", "R",],
 
 
@@ -67,9 +68,9 @@ const aIMG = [
   ],
   [
 	// B2
-	"Reserved for Spotter",
-	"iframe|src=https://www.spotternetwork.org/pages/map",
-	//"https://services.swpc.noaa.gov/images/animations/geoelectric/InterMagEarthScope/EmapGraphics_1m/latest.png",
+	"WX-76067",
+	"iframe|https://api.wo-cloud.com/content/widget/?geoObjectKey=8864613&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit",
+	
   ],  
   [
 	// B3
@@ -80,8 +81,8 @@ const aIMG = [
   ], 
   [
 	// C1
-	"B3",
-	"iframe|https://api.wo-cloud.com/content/widget/?geoObjectKey=8864613&language=en&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit",
+	"Watches, Warnings & Advisories",
+	"https://www.weather.gov/wwamap/png/fwd.png",
   ], 
   [
 	// C1
