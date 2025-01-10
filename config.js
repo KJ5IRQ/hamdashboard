@@ -10,8 +10,8 @@ const topBarCenterText = `KJ5IRQ - EM02wt`;
 // add new lines following the structure for extra menu options. The comma at the end is important!
 const aURL = [
 	//Left Side Menus	
-["add10d", "Back", "#", "1"],
-["ff9100", "Refresh", "#", "1"],
+["add10d", "Back", "#", "1",],
+["ff9100", "Refresh", "#", "1",],
 
 
 	//Right Side Menus
