@@ -12,7 +12,7 @@ const aURL = [
 	//Left Side Menus	
 ["add10d", "Back", "#", "1",],
 ["ffcc01", "Refresh", "#", "1",],
-["ffcc01", "Solar Report", "https://solar.w5mmw.net/", "1.0", "R",
+["ffcc01", "Solar Report", "https://solar.w5mmw.net/", "1.0",],
 
 
 	//Right Side Menus
