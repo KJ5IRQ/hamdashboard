@@ -15,10 +15,12 @@ const aURL = [
 
 
 	//Right Side Menus
-["0dd1a7", "Help", "#", "1","R",],
-["2196F3","KMWL Impact Board","https://aviationweather.gov/impactboard/?id=KMWL&thresh=imc&board=obs","1.0","R",],
-["2196F3","US Warn Map", "https://warn.pbs.org/","1.0","R",],
+["0dd1a7", "Help", "#", "1", "R",],
+["2196F3", "KMWL Impact Board", "https://aviationweather.gov/impactboard/?id=KMWL&thresh=imc&board=obs", "1.0", "R",],
+["2196F3", "US Warn Map", "https://warn.pbs.org/", "1.0", "R",],
 
+
+];
 // Dashboard items
 // Structure is Title, Image Source URL
 // [Title, Image Source URL],
