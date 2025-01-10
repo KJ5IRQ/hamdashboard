@@ -10,15 +10,15 @@ const topBarCenterText = `KJ5IRQ - EM02wt`;
 // add new lines following the structure for extra menu options. The comma at the end is important!
 const aURL = [
 	//Left Side Menus	
-["add10d", "Back", "#", "1",],
-["ffcc01", "Refresh", "#", "1",],
-["ffcc01", "Solar Report", "https://solar.w5mmw.net/", "1.0",],
+["2f372f", "Back", "#", "1",],
+["2f372f", "Refresh", "#", "1",],
+["2f372f", "Solar Report", "https://solar.w5mmw.net/", "1.0",],
 
 
 	//Right Side Menus
-["0dd1a7", "Help", "#", "1", "R",],
-["2196F3", "KMWL Impact Board", "https://aviationweather.gov/impactboard/?id=KMWL&thresh=imc&board=obs", "1.0", "R",],
-["2196F3", "US Warn Map", "https://warn.pbs.org/", "1.0", "R",],
+["f1e4c7", "Help", "#", "1", "R",],
+["f1e4c7", "KMWL Impact Board", "https://aviationweather.gov/impactboard/?id=KMWL&thresh=imc&board=obs", "1.0", "R",],
+["f1e4c7", "US Warn Map", "https://warn.pbs.org/", "1.0", "R",],
 
 
 ];
