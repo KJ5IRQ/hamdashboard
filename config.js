@@ -12,14 +12,14 @@ const aURL = [
 	//Left Side Menus	
 ["2f372f", "Back", "#", "1",],
 ["2f372f", "Refresh", "#", "1",],
-["2f372f", "Solar Report", "https://solar.w5mmw.net/", "1.0",],
+["2f372f", "Solar Report", "https://solar.w5mmw.net/", "1",],
 
 
 	//Right Side Menus
 ["f1e4c7", "Help", "#", "1", "R",],
-["f1e4c7", "USA Space Launches", "https://www.spacelaunchschedule.com/category/usa/", "1.0", "R",],
-["f1e4c7", "NWS-FWD-WX", "https://www.weather.gov/fwd/","R",],
-["f1e4c7", "US Warn Map", "https://warn.pbs.org/", "1.0", "R",],
+["f1e4c7", "USA Space Launches", "https://www.spacelaunchschedule.com/category/usa/", "1", "R",],
+["f1e4c7", "NWS-FWD-WX", "https://www.weather.gov/fwd/", "1", "R",],
+["f1e4c7", "US Warn Map", "https://warn.pbs.org/", "1", "R",],
 ["f1e4c7", "Spotter Net Map", "https://www.spotternetwork.org/pages/map", "1", "R",],
 
 
@@ -52,7 +52,7 @@ const aIMG = [
 	// A3
 	"Warnings/Fire Weather",
 	"https://www.spc.noaa.gov/products/activity_loop.gif",
-    "https://www.spc.noaa.gov/wcm/2025_torww_to_date.png",
+        "https://www.spc.noaa.gov/wcm/2025_torww_to_date.png",
 	"https://www.weather.gov/images/fwd/drought/latestdmtx.png",
 	"https://www.spc.noaa.gov/products/fire_wx/day1fireotlk-overview.gif",
 	"https://www.spc.noaa.gov/products/fire_wx/day2otlk_fire.gif",
