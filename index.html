@@ -804,7 +804,15 @@ Y8888P'  `Y88P'  Y8888D'    YP
         <h1>KJ5IRQ's WX, Ham & Family EOC</h1>
         <p>Loading...</p>
     </div>
-
+	  <script>
+    window.addEventListener('load', function() {
+        setTimeout(function() {
+            document.getElementById('splash-screen').style.display = 'none';
+            document.getElementById('iFrameContainer').style.display = 'block';
+            document.getElementById('imgZoom').style.display = 'block';
+        }, 5000); // 5 seconds
+    });
+</script>
     <!-- Main content of your dashboard -->
     <div id="iFrameContainer" class="iframe-container">
       <iframe class="full-screen" id="FullScreen" src="" title="Zoom"></iframe>
