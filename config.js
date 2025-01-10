@@ -18,7 +18,7 @@ const aURL = [
 	//Right Side Menus
 ["f1e4c7", "Help", "#", "1", "R",],
 ["f1e4c7", "USA Space Launches", "https://www.spacelaunchschedule.com/category/usa/", "1.0", "R",],
-["f1e4c7", "NWS-FWD-WX", "https://www.weather.gov/fwd/",],
+["f1e4c7", "NWS-FWD-WX", "https://www.weather.gov/fwd/","R",],
 ["f1e4c7", "US Warn Map", "https://warn.pbs.org/", "1.0", "R",],
 ["f1e4c7", "Spotter Net Map" "https://www.spotternetwork.org/pages/map", "1", "R",],
 
